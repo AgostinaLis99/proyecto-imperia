@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ 
+ 
+ header {
+     justify-content: center;
+  }
+  .navegación {
+     background-color: black;
+     height: 200px;
+     width: 100%;
+    
+  }
+  
+  .navegación img {
+     width: 300px;   
+    margin-left: 520px;
+  
+  
+  }
+ h1 {
+    font-family: 'Montserrat', sans-serif;
+     font-size: 40px;
+     
+     
+ }
+ .titulo {
+    margin: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+ }
+ .card {
+    margin: 30px;
+    margin-top: 100px;
+   
+ }
+ .card img {
+    width: 18rem;
+ }
+ .card-body {
+    width: 18rem;
+    font-family: 'Montserrat', sans-serif;
+ }
+ #conjuntos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+ }
+ 
+ #footer {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   align-self: flex-end;
+   justify-content: space-between;
+   
+ }
+ 
+ #footer h3 {
+    font-family: 'Montserrat', sans-serif;
+ }
+ .icono {
+    margin-top: 15px;
+    padding-left: 26px;
+ 
+ }
+ .claseRedes li {
+    list-style: none;
+    display: inline-flex;
+    justify-content: center;
+   
+ }
+ .claseRedes img {
+    width: 30px;
+    margin-top: 10px;
+    margin: 10px;
+ }
+ 
+ #copyright {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .links {
+    font-family:'Montserrat', sans-serif;
+    list-style: none;
+ }
+ @media (max-width: 768px) { 
+ 
+    .header img {
+       width: 190px;
+       margin-left: 80px;
+       margin-top: 40px;
+       
+    }
+    
+    
+    .linkNavegación {
+       font-size: 10px;
+    }
+    .navegación {
+       height: 160px;
+    }
+    .cajaLinks {
+    display: flex;
+    justify-content: space-evenly;
+    }
+ }   
+ 

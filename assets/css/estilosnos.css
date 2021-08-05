@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ header {
+    justify-content: center;
+ }
+ .navegación {
+    background-color: black;
+    height: 200px;
+    width: 100%;
+   /* position: fixed; */
+    top: 0;
+    left: 0;
+   /* display:inline-flex;*/
+ }
+ 
+ .navegación img {
+    width: 300px;   
+   margin-left: 520px;
+ 
+ 
+ }
+ .cajaLinks {
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    display:inline-flex;
+    justify-content: space-evenly;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    list-style:none;
+ 
+ }
+ 
+ .linkNavegación {
+  text-decoration:none;
+  font-size: 15px;
+  color: white;
+  background-color: black;
+  height: 100%;
+  transition: all 1s;
+ }
+ .linkNavegación:hover {
+    cursor: pointer;
+    color: gray;
+ }
+ .presentación {
+     font-family: 'Montserrat', sans-serif;
+     margin: 50px;
+     float: left;
+     text-align: justify;
+ }
+ .imgSobremi img {
+    height: 500px;
+    float: left;
+    margin-left: 30px;
+    margin: 20px;
+ }
+.texto {
+    margin: 16px;
+    
+    
+}
+.texto h2 {
+   margin-top: 150px;
+}
+.texto img {
+   width: 100%;
+}
+#footer {
+   margin-top: 500px;
+   display: flex;
+   justify-content: center;
+   
+}
+
+#footer h3 {
+   font-family: 'Montserrat', sans-serif;
+}
+.icono {
+   margin-top: 15px;
+   display: ;
+
+}
+
+.claseRedes li {
+   list-style: none;
+   display: inline-flex;
+   justify-content: center;
+}
+.claseRedes img {
+   width: 30px;
+   margin-top: 10px;
+   margin: 10px;
+}
+.redeSociales {
+   display: flex;
+   justify-content: space-around;
+   padding: 0;
+}
+#copyright {
+   margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.links {
+   font-family:'Montserrat', sans-serif ;
+   list-style: none;
+   text-align: center;
+}
+@media (max-width: 768px) { 
+
+   .header img {
+      width: 190px;
+      margin-left: 80px;
+      margin-top: 40px;
+      
+   }
+   
+   
+   .linkNavegación {
+      font-size: 10px;
+   }
+   .navegación {
+      height: 160px;
+   }
+   .cajaLinks {
+   display: flex;
+   justify-content: space-evenly;
+   }
+   .presentación {
+      float: none;
+   }
+   .imgSobremi img {
+      margin-bottom: 15px;
+   }
+.titulo h1 {
+   font-size: 30px;
+   margin-top: 5px;
+}
+.parrafo {
+   font-size: 15px;
+}
+
+
+
+}   

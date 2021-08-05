@@ -1,0 +1,209 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ 
+ 
+ header {
+    display: flex;
+    justify-content: center;
+ }
+ 
+ .navegación {
+    background-color: black;
+    height: 200px;
+    width: 100%;
+ 
+   
+ }
+ 
+ .navegación img {
+    width: 300px;   
+   margin-left: 520px;
+ 
+ 
+ }
+ .cajaLinks {
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    display:inline-flex;
+    justify-content: space-evenly;
+    font-family: 'Montserrat', sans-serif;
+    list-style:none;
+ 
+ }
+ 
+ .linkNavegación {
+  text-decoration:none;
+  font-size: 15px;
+  color: white;
+  background-color: black;
+  height: 100%;
+  transition: all 1s;
+ }
+ .linkNavegación:hover {
+    cursor: pointer;
+    color: gray;
+ }
+ 
+ 
+ #carouselExampleFade {
+   margin: 0;
+   margin-top: 15px;
+  
+ }
+ button {
+    border-style: groove;
+ }
+ 
+ .texto {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    
+ }
+ #texto {
+    padding: 10px;
+ }
+ .texto h1 {
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 70px;
+    margin: 0;
+ 
+ }
+ .texto h2 {
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 16px;
+    margin: 0;
+ }
+ .Tarjetas {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+ }
+ .card {
+    margin: 20px;
+   
+ }
+ .card img {
+    width: 350px;
+ }
+ .card-body {
+    width: 350px;
+ }
+ #footer {
+    margin-top: 500px;
+    display: flex;
+    justify-content: center;
+    
+ }
+ 
+ #footer h3 {
+    font-family: 'Montserrat', sans-serif;
+ }
+ .icono {
+    margin-top: 15px;
+    display: ;
+ 
+ }
+ 
+ .claseRedes li {
+    list-style: none;
+    display: inline-flex;
+    justify-content: center;
+ }
+ .claseRedes img {
+    width: 30px;
+    margin-top: 10px;
+    margin: 10px;
+ }
+ .redeSociales {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+ }
+ #copyright {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .links {
+    font-family:'Montserrat', sans-serif ;
+    list-style: none;
+    text-align: center;
+ }
+ 
+ 
+ @media (max-width: 768px) { 
+ 
+ .header img {
+    width: 190px;
+    margin-left: 80px;
+    margin-top: 40px;
+    
+ }
+ 
+ 
+ .linkNavegación {
+    font-size: 10px;
+ }
+ .navegación {
+    height: 160px;
+ }
+ .cajaLinks {
+ display: flex;
+ justify-content: space-evenly;
+ }
+ .texto h1 {
+    font-size: 30px;
+    text-align: center;
+ }
+ .texto h2 {
+    font-size: 10px;
+    text-align: center;
+ }
+ .Tarjetas {
+    display: block;
+    
+   
+ }
+ .card {
+    width: 200px;
+    font-size: 10px;
+    margin-left: 50px;
+ }
+ .card img {
+    width: 200px;
+ }
+ .card-body {
+    width: 200px;
+    padding: 17px;
+ }
+ #footer {
+    margin-top: 50px;
+ 
+ }
+ #footer h3 {
+    font-size: 15px;
+    margin-left: 20px;
+ }
+ .redeSociales {
+    display: flex;
+    padding: 0;
+ }
+ .icono {
+    padding-left: 15px;
+ }
+ .links li {
+    font-size: 10px;
+    text-align: center;
+ }
+ 
